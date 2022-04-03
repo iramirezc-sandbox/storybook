@@ -4,7 +4,7 @@ import React from "react";
 import Button from "./index";
 
 export default {
-  title: "Examples/Button",
+  title: "Library/Button",
   component: Button,
 };
 
