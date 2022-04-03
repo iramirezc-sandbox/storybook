@@ -1,15 +1,19 @@
-.button-default {
+.button {
   margin: 10px 0;
-  background-color: #0b1d51;
-  color: white;
   height: 3em;
   padding: 10px;
   border: 0;
   border-radius: 5px;
 }
 
+.button-primary {
+  background-color: #0b1d51;
+  color: white;
+}
+
 .button-error {
   background-color: #c94277;
+  color: white;
 }
 
 .button-warning {

@@ -8,17 +8,15 @@ type Props = {
   color?: string,
 };
 
-const Button = ({ title, color, onClick }: Props): React$Element<"button"> => {
-  const classNames = ["button-default"];
-
-  if (color === "error") {
-    classNames.push("button-error");
-  } else if (color === "warning") {
-    classNames.push("button-warning");
-  }
+const Button = ({
+  title,
+  color = "primary",
+  onClick,
+}: Props): React$Element<"button"> => {
+  const classNames = ["button", `button-${color}`].join(" ");
 
   return (
-    <button onClick={onClick} className={classNames.join(" ")}>
+    <button onClick={onClick} className={classNames}>
       {title}
     </button>
   );
