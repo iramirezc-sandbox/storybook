@@ -1,4 +1,4 @@
-# Storybook + React + Flow + Babel & Webpack
+# Storybook + React + Flow + Babel & Webpack example
 
 ## Purpose
 
