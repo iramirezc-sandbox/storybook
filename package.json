@@ -1,0 +1,22 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "Sandbox workspace to play around with [Storybook.js](https://storybook.js.org/)",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iramirezc-sandbox/storybook.git"
+  },
+  "keywords": [],
+  "author": "Isaac Ramirez <iramirezc@live.com.mx>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iramirezc-sandbox/storybook/issues"
+  },
+  "homepage": "https://github.com/iramirezc-sandbox/storybook#readme",
+  "private": "true",
+  "workspaces": [
+    "examples/with-react-flow-webpack"
+  ]
+}
