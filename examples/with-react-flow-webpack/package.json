@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --mode production",
     "flow": "flow",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "storybook": "start-storybook -p 5005"
   },
   "keywords": [],
   "author": "Isaac Ramirez <iramirezc@live.com.mx>",
