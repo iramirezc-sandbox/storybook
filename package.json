@@ -17,6 +17,7 @@
   "homepage": "https://github.com/iramirezc-sandbox/storybook#readme",
   "private": "true",
   "workspaces": [
+    "examples/default-react-example",
     "examples/with-react-flow-webpack"
   ]
 }
