@@ -33,15 +33,15 @@ _Alternatively run `BABEL_SHOW_CONFIG_FOR=<path-to-component-or-story-file>.js y
   - [Introduction to Storybook for React](https://storybook.js.org/docs/react/get-started/introduction)
   - [Install Storybook](https://storybook.js.org/docs/react/get-started/install)
   - [What's a Story](https://storybook.js.org/docs/react/get-started/whats-a-story)
-  - [Brose Stories](https://storybook.js.org/docs/react/get-started/browse-stories)
+  - [Browse Stories](https://storybook.js.org/docs/react/get-started/browse-stories)
   - [Setup Storybook](https://storybook.js.org/docs/react/get-started/setup)
   - [Conclusion](https://storybook.js.org/docs/react/get-started/conclusion)
 
 ## Further Reading
 
-- [ ] [Configuration Overview | Storybook](https://storybook.js.org/docs/react/configure/overview)
-- [ ] [Types of addons | Storybook](https://storybook.js.org/docs/react/addons/addon-types)
+- [ ] [Configuration | Storybook](https://storybook.js.org/docs/react/configure/overview)
 - [x] [Configure Babel | Storybook](https://storybook.js.org/docs/react/configure/babel#custom-babel-config)
 - [x] [Configure Webpack | Storybook](https://storybook.js.org/docs/react/configure/webpack)
 - [ ] [Configure Images, Fonts, and Assets | Storybook](https://storybook.js.org/docs/react/configure/images-and-assets)
+- [ ] [Types of addons | Storybook](https://storybook.js.org/docs/react/addons/addon-types)
 
