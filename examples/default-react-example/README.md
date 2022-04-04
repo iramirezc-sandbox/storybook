@@ -18,3 +18,11 @@ yarn storybook
 ## Sources
 
 - [Get started | Storybook](https://storybook.js.org/docs/react/get-started/install)
+
+## Further Reading
+
+- [ ] [Component Driven User Interfaces](https://www.componentdriven.org/)
+- [ ] [Component-Driven Development | Tom Coleman (Feb, 2017)](https://www.chromatic.com/blog/component-driven-development/)
+- [ ] [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)
+- [ ] [Design Systems Handbook](https://www.designbetter.co/design-systems-handbook)
+- [ ] [Component Story Format (CSF)](https://github.com/ComponentDriven/csf)
