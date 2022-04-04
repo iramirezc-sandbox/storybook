@@ -2,6 +2,7 @@
 import React from "react";
 
 import Button from "./index";
+import type { Props as ButtonProps } from "./index";
 
 export default {
   title: "Library/Button",
@@ -10,12 +11,23 @@ export default {
 
 const handleClick = () => console.log("Click!");
 
-export const Primary = () => <Button title="Primary" onClick={handleClick} />;
-
-export const Warning = () => (
-  <Button title="Warning" color="warning" onClick={handleClick} />
+const Template = (args: ButtonProps) => (
+  <Button {...args} onClick={handleClick} />
 );
 
-export const Error = () => (
-  <Button title="Error" color="error" onClick={handleClick} />
-);
+export const Primary = Template.bind({});
+Primary.args = {
+  title: "Primary",
+};
+
+export const Warning = Template.bind({});
+Warning.args = {
+  title: "Warning",
+  color: "warning",
+};
+
+export const Error = Template.bind({});
+Error.args = {
+  title: "Error",
+  color: "error",
+};

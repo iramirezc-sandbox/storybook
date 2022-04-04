@@ -2,7 +2,7 @@
 import React from "react";
 import "./styles.css";
 
-type Props = {
+export type Props = {
   title: string,
   onClick: function,
   color?: string,
